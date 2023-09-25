@@ -1,0 +1,223 @@
+/*#Header {
+  background-color: #000000;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+div {
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-left: 0;
+}
+
+#Brunao {
+  color: #fff;
+
+  font-size: 30px;
+
+  justify-content: center;
+
+  align-items: center;
+
+  display: flex;
+
+  text-align: center;
+
+  margin: center;
+
+  width: 274px;
+
+  flex-shrink: 0;
+}
+
+nav {
+  display: flex;
+  margin-left: 8rem;
+}
+
+#singIn {
+  margin-right: 0px;
+} */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 200px;
+}
+
+nav {
+  flex-grow: 1; /* Ocupa todo o espaço disponível entre o logotipo e o botão */
+  text-align: center; /* Centraliza horizontalmente o conteúdo do nav */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* Conteúdo principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+    
+
+
+/* Estilo para o contêiner geral */
+div {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Estilo para a lista de ofertas especiais */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para os selects */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para o botão */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilo para a lista de desejos */
+ul:last-child {
+  margin-top: 20px;
+}
+
+/* Estilo para os itens da lista de desejos */
+li:last-child {
+  margin-top: 5px;
+}
+
+/* Estilo para o contêiner de detalhes do produto selecionado */
+div:last-child {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo para o campo de entrada de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select, input[type="text"], button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+.product-image {
+  max-width: 236px; /* Defina o tamanho desejado para a imagem */
+  height: auto;
+  margin-right: 30px;
+  
+  align-items: center;
+
+}
